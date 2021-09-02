@@ -3,7 +3,7 @@ import React from 'react'
 const History = ({history,moveTo,currentMove}) => {
     return (
         <div className="history-wrapper">
-        <ul className = 'history'>
+        <ul className = 'history1'>
             {
                 history.map((_ , move)=>{
                     return(
