@@ -3,7 +3,7 @@ import Square from './Square'
 
 const Board = ({board,handleSquareClick,winningSquares}) => {
 
-
+ 
 const renderSquare = (position)=>{
 
 const isWinningSquares = winningSquares.includes(position)    
